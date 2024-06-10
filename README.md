@@ -8,7 +8,8 @@ It would also need a UI and some testing as to whether the system prompt is wort
 
 If we roughly estimate the $ cost with the sample system prompt:
 
-226 (System Prompt) + 250 (Key Points) + 250 (Recent Interactions) + 29 (User Input) = 755 tokens
+226 (System Prompt) + 250 (Key Points) + 250 (Recent Interactions) + 29 (User Input) = 755 tokens.
+
 Assume the cost is $0.03 / 1000 tokens = $0.02265 per message (example doesn't reflect actual prices, you'll have to check yourself.)
 
 
