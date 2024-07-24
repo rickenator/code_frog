@@ -1,6 +1,6 @@
-# Code Whisperer
+# Code Frog
 
-Code Whisperer is an advanced AI assistant specialized in software development. This project aims to enhance the capabilities of an AI model (GPT-4) to handle complex software development conversations by dynamically managing and updating the context provided to the model.
+Code Frog is an advanced AI assistant specialized in software development. This project aims to enhance the capabilities of an AI model (GPT-4) to handle complex software development conversations by dynamically managing and updating the context provided to the model.
 
 This is a Work In Progress (WIP) and not a complete application of the framework which itself may be incomplete. 
 
@@ -29,7 +29,7 @@ Assume the cost is $0.03 / 1000 tokens = $0.02265 per message (example doesn't r
 
 ### Local Storage for Enhanced Context
 
-Code Whisperer uses local storage to manage and enhance context across interactions. By storing key points and interactions in a local SQLite database, the system can:
+Code Frog uses local storage to manage and enhance context across interactions. By storing key points and interactions in a local SQLite database, the system can:
 
 - **Persist Context Across Sessions**: Maintain a consistent context over multiple interactions and sessions, providing more coherent and relevant responses.
 - **Retrieve Key Points**: Dynamically fetch and combine key points from various categories to ensure that the model has access to the most relevant information.
@@ -46,15 +46,15 @@ The project employs natural language processing (NLP) techniques to dynamically 
 
 ## Files
 
-- `code_whisperer.py`: The initial implementation of the AI assistant for software development.
-- `code_whisperer_with_system.py`: Enhanced version with a system prompt to focus the model on software development.
+- `code_frog.py`: The initial implementation of the AI assistant for software development.
+- `code_frog_with_system.py`: Enhanced version with a system prompt to focus the model on software development.
 
 ## Getting Started
 
 1. **Clone the Repository**:
    ```sh
-   git clone git@github.com:yourusername/code_whisperer.git
-   cd code_whisperer
+   git clone git@github.com:yourusername/code_frog.git
+   cd code_frog
 
 2. **Set Up the Environment**:
    Make sure you have Python installed. Set up a virtual environment and install required packages.
@@ -70,9 +70,9 @@ The project employs natural language processing (NLP) techniques to dynamically 
 
 4. **Running the Script**:
    ```sh
-   python code_whisperer.py
+   python code_frog.py
    # or
-   python code_whisperer_with_system.py
+   python code_frog_with_system.py
 
 
 ## Contributing
@@ -80,7 +80,7 @@ The project employs natural language processing (NLP) techniques to dynamically 
 
 ## License
 
-Code Whisperer © 2024 by Rick Goldberg is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+Code Frog © 2024 by Rick Goldberg is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
    
 
